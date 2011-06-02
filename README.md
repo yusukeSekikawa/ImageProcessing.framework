@@ -12,7 +12,7 @@ HP
 
 Dependency
 =======
- * none
+Accelerate.framework
  
 Acknowledgement
 =======
