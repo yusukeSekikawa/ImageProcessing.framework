@@ -20,8 +20,8 @@ Dependency
  
 Acknowledgement
 =======
-My colleague Ko Yokokawa who design HP and gave me advice
-Thank you.
+My colleague Ko Yokokawa designed HP and gave me advice
+=======
 
 [PiPic]: http://www.facebook.com/apps/application.php?id=168715359851028
 [vanishlab]: http://vanishlab.web.fc2.com/
