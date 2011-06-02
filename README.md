@@ -1,5 +1,8 @@
 ImageProcessing.framework
 
+=======
+![](http://vanishlab.web.fc2.com/_src/sc228/x-code2082CC83R83s815B.png)
+
 NOTE
 =======
 Please set the following configuration.
@@ -9,8 +12,6 @@ Please set the following configuration.
 
 Android version will be release soon.
 
-=======
-![](http://vanishlab.web.fc2.com/_src/sc228/x-code2082CC83R83s815B.png)
 
 App Store
 =======
