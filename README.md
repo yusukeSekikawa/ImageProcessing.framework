@@ -1,4 +1,14 @@
 ImageProcessing.framework
+
+NOTE
+=======
+Please set the following configuration.
++In your project setting,set architecture to armv7.(override)
++In your project setting,turn Thumb instruction to Off
++Add Accelerate.framework
+
+Android version will be release soon.
+
 =======
 ![](http://vanishlab.web.fc2.com/_src/sc228/x-code2082CC83R83s815B.png)
 
