@@ -2,10 +2,6 @@ ImageProcessing.framework
 =======
 ![](http://vanishlab.web.fc2.com/_src/sc228/x-code2082CC83R83s815B.png)
 
-License
-=======
-BSD License.
-
 App Store
 =======
 You can download iOS APP [PiPic] using this framework on APP Store
@@ -21,11 +17,12 @@ Dependency
 Acknowledgement
 =======
 My colleague Ko Yokokawa designed HP and gave me advice
-=======
 
-[PiPic]: http://www.facebook.com/apps/application.php?id=168715359851028
-[vanishlab]: http://vanishlab.web.fc2.com/
-[BSD License]: http://www.opensource.org/licenses/bsd-license.php
+License
+=======
+BSD License.
+This framework use OpenCV.
+Please read License agreement below.
 
 
 IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING. 
@@ -65,3 +62,9 @@ loss of use, data, or profits; or business interruption) however caused
 and on any theory of liability, whether in contract, strict liability,
 or tort (including negligence or otherwise) arising in any way out of
 the use of this software, even if advised of the possibility of such damage.
+
+
+[PiPic]: http://www.facebook.com/apps/application.php?id=168715359851028
+[vanishlab]: http://vanishlab.web.fc2.com/
+[BSD License]: http://www.opensource.org/licenses/bsd-license.php
+
