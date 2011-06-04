@@ -2,6 +2,7 @@
 <Bucket
    type = "1"
    version = "1.0">
+<<<<<<< HEAD
    <FileBreakpoints>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -18,4 +19,6 @@
          landmarkType = "19">
       </FileBreakpoint>
    </FileBreakpoints>
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
 </Bucket>

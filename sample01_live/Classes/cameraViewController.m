@@ -29,6 +29,7 @@
  * HE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #import "cameraViewController.h"
+<<<<<<< HEAD
 #import <ImageProcessing/effect.h>
 #import <ImageProcessing/ImageProcessing.h>
 //#import <ImageProcessing/ImageProcessingHelper.h>
@@ -36,6 +37,13 @@
 @implementation cameraViewController
 @synthesize _session=session;
 @synthesize _prevLayer=prevLayer;
+=======
+#import <ImageProcessing/ImageProcessing.h>
+#import <ImageProcessing/effect.h>
+
+@implementation cameraViewController
+@synthesize _session=session;
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
 
 uint8_t *shadingPtr=nil;
 - (void)dealloc
@@ -127,6 +135,7 @@ uint8_t *shadingPtr=nil;
 	size_t width = CVPixelBufferGetWidth(imageBuffer);
 	size_t height = CVPixelBufferGetHeight(imageBuffer);
 	size_t bufSize = bytesPerRow * height;
+<<<<<<< HEAD
     
     
     if (_filteredImageBufferSize < bufSize)
@@ -241,6 +250,46 @@ uint8_t *shadingPtr=nil;
     CGDataProviderRelease(dp);
     CGImageRelease(cgImage);
     
+=======
+	
+    if(eTypeSeg.selectedSegmentIndex==0){
+        //NSLog(@"tyr cvCanny %lu %lu",width,height);
+        [liveView setImage:[ImageProcessing effectFastLine:baseAddress width:width height:height]];
+#if 0
+        NSArray * faceArray = [ImageProcessing detectFace:baseAddress width:width height:height type:CV_FACE_DETECT_FAST_WITHOUT_PROFILE];
+        for(NSNumber *rectNumber in faceArray){
+            NSLog(@"Face:%f,%f,%f,%f",[rectNumber CGRectValue].origin.x,[rectNumber CGRectValue].origin.y,[rectNumber CGRectValue].size.width,[rectNumber CGRectValue].size.height);
+        }
+#endif
+        
+    }else{
+        if (_filteredImageBufferSize < bufSize)
+        {
+            if (_filteredImageBuffer)
+                free(_filteredImageBuffer);
+            _filteredImageBuffer = malloc(bufSize);
+            if (!_filteredImageBuffer)
+                return;
+        }
+        
+        effectMirror((int *)baseAddress,_filteredImageBuffer,width,height,0);
+        NSData *data = [NSData dataWithBytesNoCopy:_filteredImageBuffer
+                                            length:bufSize
+                                      freeWhenDone:NO];
+        CGDataProviderRef dp = CGDataProviderCreateWithCFData((CFDataRef)data);
+        
+        CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+        CGImageRef cgImage = CGImageCreate(width, height, 8, 32, bytesPerRow, colorSpace, 
+                                           (kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst),
+                                           dp, NULL, NO, kCGRenderingIntentDefault);
+        UIImage *img = [[[UIImage alloc] initWithCGImage:cgImage] autorelease];
+        [liveView setImage:img];
+        CGColorSpaceRelease(colorSpace);
+        CGDataProviderRelease(dp);
+        CGImageRelease(cgImage);
+    }
+    
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
     [liveView setNeedsDisplay];
 }
 
@@ -253,6 +302,14 @@ uint8_t *shadingPtr=nil;
 	AVCaptureVideoDataOutput *captureOutput = [[AVCaptureVideoDataOutput alloc] init];
 	
 	captureOutput.alwaysDiscardsLateVideoFrames = YES; 
+<<<<<<< HEAD
+=======
+	
+	//dispatch_queue_t queue;
+	//queue = dispatch_queue_create("cameraQueue", NULL);
+	//[captureOutput setSampleBufferDelegate:nil queue:queue];
+	//dispatch_release(queue);
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
     
     [captureOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
 
@@ -271,6 +328,7 @@ uint8_t *shadingPtr=nil;
     session.sessionPreset = AVCaptureSessionPresetMedium;
     //session.sessionPreset = AVCaptureSessionPresetLow;
     
+<<<<<<< HEAD
     prevLayer = [AVCaptureVideoPreviewLayer layerWithSession: session];
     [prevLayer setOrientation:AVCaptureVideoOrientationLandscapeRight];
     
@@ -285,6 +343,15 @@ uint8_t *shadingPtr=nil;
         [self.view.layer addSublayer:_markerLayre];
     }
     
+=======
+//    AVCaptureVideoPreviewLayer *prevLayer = [AVCaptureVideoPreviewLayer layerWithSession: session];
+//    [prevLayer setOrientation:AVCaptureVideoOrientationLandscapeRight];
+//    
+//    prevLayer.frame = CGRectMake(0.0, 0.0, 480 , 320);
+//    prevLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+//    [self.view.layer addSublayer: prevLayer];
+//    
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
     
 	[session addInput:captureInput];
 	[session addOutput:captureOutput];
@@ -301,10 +368,16 @@ uint8_t *shadingPtr=nil;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
     [eTypeSeg setTransform:CGAffineTransformMakeRotation(M_PI/2)]; 
     [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(initCapture) userInfo:nil repeats:NO];
     
 
+=======
+    //[self initCapture];
+    [eTypeSeg setTransform:CGAffineTransformMakeRotation(M_PI/2)]; 
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(initCapture) userInfo:nil repeats:NO];
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
 }
 
 
