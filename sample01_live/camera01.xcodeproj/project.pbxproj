@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 		9674029C139A2BE8002DDA3B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 969EC6B7136E5FFF00B7B69F /* icon.png */; };
 		967402A7139A37DA002DDA3B /* markerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 967402A6139A37DA002DDA3B /* markerLayer.m */; };
 		967402BA139A41D8002DDA3B /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 967402B8139A41D8002DDA3B /* haarcascade_frontalface_default.xml */; };
 		967402BB139A41D8002DDA3B /* haarcascade_profileface.xml in Resources */ = {isa = PBXBuildFile; fileRef = 967402B9139A41D8002DDA3B /* haarcascade_profileface.xml */; };
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 		EB006143139A0EB40050418B /* camera-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB006141139A0EB40050418B /* camera-Info.plist */; };
 		EB00614E139A0F210050418B /* cameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB00614B139A0F210050418B /* cameraAppDelegate.m */; };
 		EB00614F139A0F210050418B /* cameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB00614D139A0F210050418B /* cameraViewController.m */; };
 		EB006151139A0F420050418B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB006150139A0F420050418B /* main.m */; };
 		EB006154139A0F8D0050418B /* flashBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB006152139A0F8D0050418B /* flashBackViewController.xib */; };
 		EB006155139A0F8D0050418B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB006153139A0F8D0050418B /* MainWindow.xib */; };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+		EB00616B139A13DA0050418B /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB00616A139A13DA0050418B /* ImageProcessing.framework */; };
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 		EB006173139A155B0050418B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB006172139A155B0050418B /* CoreVideo.framework */; };
 		EB006175139A15770050418B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB006174139A15770050418B /* Foundation.framework */; };
 		EB006177139A15DE0050418B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB006176139A15DE0050418B /* UIKit.framework */; };
@@ -26,15 +42,31 @@
 		EB247A3F13681474005D97B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB247A3E13681474005D97B9 /* AVFoundation.framework */; };
 		EB247A4113681479005D97B9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB247A4013681479005D97B9 /* ImageIO.framework */; };
 		EB247A45136816EE005D97B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB247A44136816EE005D97B9 /* QuartzCore.framework */; };
+<<<<<<< HEAD
 		EB4AD2D8139B016800D5B665 /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4AD2D7139B016800D5B665 /* ImageProcessing.framework */; };
+=======
+<<<<<<< HEAD
+		EBAFE886139A6F7100909381 /* ImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAFE885139A6F7100909381 /* ImageProcessing.framework */; };
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 		EBE38CFC13908765007155B2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE38CFB13908765007155B2 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 		967402A5139A37DA002DDA3B /* markerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markerLayer.h; path = camera01.xcodeproj/markerLayer.h; sourceTree = SOURCE_ROOT; };
 		967402A6139A37DA002DDA3B /* markerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = markerLayer.m; path = camera01.xcodeproj/markerLayer.m; sourceTree = SOURCE_ROOT; };
 		967402B8139A41D8002DDA3B /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_default.xml; path = haarcascades/haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
 		967402B9139A41D8002DDA3B /* haarcascade_profileface.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_profileface.xml; path = haarcascades/haarcascade_profileface.xml; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 		969EC6B7136E5FFF00B7B69F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		EB006141139A0EB40050418B /* camera-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "camera-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EB006142139A0EB40050418B /* camera-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "camera-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -46,6 +78,13 @@
 		EB006152139A0F8D0050418B /* flashBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = flashBackViewController.xib; path = Nib/flashBackViewController.xib; sourceTree = SOURCE_ROOT; };
 		EB006153139A0F8D0050418B /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = Nib/MainWindow.xib; sourceTree = SOURCE_ROOT; };
 		EB006160139A12E30050418B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+		EB00616A139A13DA0050418B /* ImageProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageProcessing.framework; path = ../ImageProcessing.framework; sourceTree = "<group>"; };
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 		EB00616D139A148A0050418B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		EB006172139A155B0050418B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		EB006174139A15770050418B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,7 +96,14 @@
 		EB247A3E13681474005D97B9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EB247A4013681479005D97B9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		EB247A44136816EE005D97B9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+<<<<<<< HEAD
 		EB4AD2D7139B016800D5B665 /* ImageProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageProcessing.framework; path = ../ImageProcessing.framework; sourceTree = "<group>"; };
+=======
+<<<<<<< HEAD
+		EBAFE885139A6F7100909381 /* ImageProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageProcessing.framework; path = ../ImageProcessing.framework; sourceTree = "<group>"; };
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 		EBE38CFB13908765007155B2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -66,12 +112,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				EB4AD2D8139B016800D5B665 /* ImageProcessing.framework in Frameworks */,
+=======
+<<<<<<< HEAD
+				EBAFE886139A6F7100909381 /* ImageProcessing.framework in Frameworks */,
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 				EB00617B139A16470050418B /* CoreMedia.framework in Frameworks */,
 				EB006179139A162E0050418B /* CoreFoundation.framework in Frameworks */,
 				EB006177139A15DE0050418B /* UIKit.framework in Frameworks */,
 				EB006175139A15770050418B /* Foundation.framework in Frameworks */,
 				EB006173139A155B0050418B /* CoreVideo.framework in Frameworks */,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+				EB00616B139A13DA0050418B /* ImageProcessing.framework in Frameworks */,
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 				EBE38CFC13908765007155B2 /* Accelerate.framework in Frameworks */,
 				EB247A45136816EE005D97B9 /* QuartzCore.framework in Frameworks */,
 				EB247A4113681479005D97B9 /* ImageIO.framework in Frameworks */,
@@ -108,6 +168,13 @@
 				EB006176139A15DE0050418B /* UIKit.framework */,
 				EB006174139A15770050418B /* Foundation.framework */,
 				EB006172139A155B0050418B /* CoreVideo.framework */,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+				EB00616A139A13DA0050418B /* ImageProcessing.framework */,
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,9 +182,18 @@
 		EB2479A31367EBE2005D97B9 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				EB4AD2D7139B016800D5B665 /* ImageProcessing.framework */,
 				967402B8139A41D8002DDA3B /* haarcascade_frontalface_default.xml */,
 				967402B9139A41D8002DDA3B /* haarcascade_profileface.xml */,
+=======
+<<<<<<< HEAD
+				EBAFE885139A6F7100909381 /* ImageProcessing.framework */,
+				967402B8139A41D8002DDA3B /* haarcascade_frontalface_default.xml */,
+				967402B9139A41D8002DDA3B /* haarcascade_profileface.xml */,
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 				EB00617C139A172A0050418B /* Frameworks */,
 				969EC6B7136E5FFF00B7B69F /* icon.png */,
 				EB2479B91367EBE3005D97B9 /* Supporting Files */,
@@ -142,8 +218,16 @@
 				EB00614B139A0F210050418B /* cameraAppDelegate.m */,
 				EB00614C139A0F210050418B /* cameraViewController.h */,
 				EB00614D139A0F210050418B /* cameraViewController.m */,
+<<<<<<< HEAD
 				967402A5139A37DA002DDA3B /* markerLayer.h */,
 				967402A6139A37DA002DDA3B /* markerLayer.m */,
+=======
+<<<<<<< HEAD
+				967402A5139A37DA002DDA3B /* markerLayer.h */,
+				967402A6139A37DA002DDA3B /* markerLayer.m */,
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 			);
 			name = Classes;
 			path = flashBack;
@@ -210,9 +294,18 @@
 				EB006143139A0EB40050418B /* camera-Info.plist in Resources */,
 				EB006154139A0F8D0050418B /* flashBackViewController.xib in Resources */,
 				EB006155139A0F8D0050418B /* MainWindow.xib in Resources */,
+<<<<<<< HEAD
 				9674029C139A2BE8002DDA3B /* icon.png in Resources */,
 				967402BA139A41D8002DDA3B /* haarcascade_frontalface_default.xml in Resources */,
 				967402BB139A41D8002DDA3B /* haarcascade_profileface.xml in Resources */,
+=======
+<<<<<<< HEAD
+				9674029C139A2BE8002DDA3B /* icon.png in Resources */,
+				967402BA139A41D8002DDA3B /* haarcascade_frontalface_default.xml in Resources */,
+				967402BB139A41D8002DDA3B /* haarcascade_profileface.xml in Resources */,
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +319,14 @@
 				EB00614E139A0F210050418B /* cameraAppDelegate.m in Sources */,
 				EB00614F139A0F210050418B /* cameraViewController.m in Sources */,
 				EB006151139A0F420050418B /* main.m in Sources */,
+<<<<<<< HEAD
 				967402A7139A37DA002DDA3B /* markerLayer.m in Sources */,
+=======
+<<<<<<< HEAD
+				967402A7139A37DA002DDA3B /* markerLayer.m in Sources */,
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +377,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/..\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/../ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework\"",
+=======
+<<<<<<< HEAD
+					"\"$(SRCROOT)/../ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework\"",
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -289,7 +396,14 @@
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "camera-Info.plist";
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+=======
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -312,14 +426,28 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/..\"",
+<<<<<<< HEAD
 					"\"$(SRCROOT)/../ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework\"",
+=======
+<<<<<<< HEAD
+					"\"$(SRCROOT)/../ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework\"",
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "camera-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "camera-Info.plist";
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+=======
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (

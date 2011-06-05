@@ -29,6 +29,10 @@
  * HE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #import "cameraViewController.h"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 #import <ImageProcessing/effect.h>
 #import <ImageProcessing/ImageProcessing.h>
 //#import <ImageProcessing/ImageProcessingHelper.h>
@@ -36,6 +40,16 @@
 @implementation cameraViewController
 @synthesize _session=session;
 @synthesize _prevLayer=prevLayer;
+<<<<<<< HEAD
+=======
+=======
+#import <ImageProcessing/ImageProcessing.h>
+#import <ImageProcessing/effect.h>
+
+@implementation cameraViewController
+@synthesize _session=session;
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 
 uint8_t *shadingPtr=nil;
 - (void)dealloc
@@ -63,6 +77,61 @@ uint8_t *shadingPtr=nil;
 }
 
 #pragma mark - View lifecycle
+<<<<<<< HEAD
+=======
+- (UIImage *) flipImageVerticaly:(UIImage *)img{
+    CGImageRef imgRef = [img CGImage];
+    CGContextRef context;
+	
+    UIGraphicsBeginImageContext(CGSizeMake(img.size.width, img.size.height));
+    context = UIGraphicsGetCurrentContext();
+    CGContextTranslateCTM(context, img.size.width, 0);
+    CGContextScaleCTM(context, 1.0, -1.0);
+    CGContextRotateCTM(context, -M_PI);
+	
+    CGContextDrawImage(context, CGRectMake(0, 0, img.size.width, img.size.height), imgRef);
+    UIImage *ret = UIGraphicsGetImageFromCurrentImageContext();  
+	
+    UIGraphicsEndImageContext();
+    return ret;
+}
+
+- (UIImage*)resizedImage:(UIImage *)img
+{
+#define resizedImgWidth		80
+    CGFloat imgWidth  = img.size.width;
+    CGFloat imgHeigh = img.size.height;
+    
+    CGSize resizedSize = (imgWidth < imgHeigh) ? CGSizeMake(resizedImgWidth, imgHeigh*(resizedImgWidth/imgWidth)):CGSizeMake(imgWidth*(resizedImgWidth/imgHeigh), resizedImgWidth);
+	
+    UIGraphicsBeginImageContext(resizedSize);
+	
+    [img drawInRect:CGRectMake(0, 0, resizedSize.width, resizedSize.height)];
+    UIImage* resizedImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return resizedImage;
+}
+- (UIImage*)imageByCroppingSquare:(CGImageRef)imageToCrop
+{
+    size_t width = CGImageGetWidth(imageToCrop);
+    size_t height = CGImageGetHeight(imageToCrop);
+    
+    NSLog(@"imageByCroppingSquare %lu:%lu",width,height);
+    
+    int xyDiffs=width-height;
+    CGRect squareToCrop;
+    if(xyDiffs>0){
+        squareToCrop=CGRectMake(xyDiffs/2, 0, height, height);
+    }else{
+        squareToCrop=CGRectMake(0 , -xyDiffs/2, width, width);
+        
+    }
+    CGImageRef imageRef = CGImageCreateWithImageInRect(imageToCrop, squareToCrop);
+    UIImage *cropped =[UIImage imageWithCGImage:imageRef];
+    CGImageRelease(imageRef);
+    return cropped;
+}
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 
 
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection
@@ -75,6 +144,10 @@ uint8_t *shadingPtr=nil;
 	size_t width = CVPixelBufferGetWidth(imageBuffer);
 	size_t height = CVPixelBufferGetHeight(imageBuffer);
 	size_t bufSize = bytesPerRow * height;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
     
     
     if (_filteredImageBufferSize < bufSize)
@@ -149,6 +222,10 @@ uint8_t *shadingPtr=nil;
             //NSArray * faceArray = [ImageProcessing detectFace:baseAddress width:width height:height type:CV_FACE_DETECT_FAST_WITHOUT_PROFILE];
             
             return;
+<<<<<<< HEAD
+=======
+            //memcpy(_filteredImageBuffer, baseAddress, bufSize);
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
             break;
     }
     
@@ -188,6 +265,49 @@ uint8_t *shadingPtr=nil;
     CGDataProviderRelease(dp);
     CGImageRelease(cgImage);
     
+<<<<<<< HEAD
+=======
+=======
+	
+    if(eTypeSeg.selectedSegmentIndex==0){
+        //NSLog(@"tyr cvCanny %lu %lu",width,height);
+        [liveView setImage:[ImageProcessing effectFastLine:baseAddress width:width height:height]];
+#if 0
+        NSArray * faceArray = [ImageProcessing detectFace:baseAddress width:width height:height type:CV_FACE_DETECT_FAST_WITHOUT_PROFILE];
+        for(NSNumber *rectNumber in faceArray){
+            NSLog(@"Face:%f,%f,%f,%f",[rectNumber CGRectValue].origin.x,[rectNumber CGRectValue].origin.y,[rectNumber CGRectValue].size.width,[rectNumber CGRectValue].size.height);
+        }
+#endif
+        
+    }else{
+        if (_filteredImageBufferSize < bufSize)
+        {
+            if (_filteredImageBuffer)
+                free(_filteredImageBuffer);
+            _filteredImageBuffer = malloc(bufSize);
+            if (!_filteredImageBuffer)
+                return;
+        }
+        
+        effectMirror((int *)baseAddress,_filteredImageBuffer,width,height,0);
+        NSData *data = [NSData dataWithBytesNoCopy:_filteredImageBuffer
+                                            length:bufSize
+                                      freeWhenDone:NO];
+        CGDataProviderRef dp = CGDataProviderCreateWithCFData((CFDataRef)data);
+        
+        CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+        CGImageRef cgImage = CGImageCreate(width, height, 8, 32, bytesPerRow, colorSpace, 
+                                           (kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst),
+                                           dp, NULL, NO, kCGRenderingIntentDefault);
+        UIImage *img = [[[UIImage alloc] initWithCGImage:cgImage] autorelease];
+        [liveView setImage:img];
+        CGColorSpaceRelease(colorSpace);
+        CGDataProviderRelease(dp);
+        CGImageRelease(cgImage);
+    }
+    
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
     [liveView setNeedsDisplay];
 }
 
@@ -200,6 +320,17 @@ uint8_t *shadingPtr=nil;
 	AVCaptureVideoDataOutput *captureOutput = [[AVCaptureVideoDataOutput alloc] init];
 	
 	captureOutput.alwaysDiscardsLateVideoFrames = YES; 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	
+	//dispatch_queue_t queue;
+	//queue = dispatch_queue_create("cameraQueue", NULL);
+	//[captureOutput setSampleBufferDelegate:nil queue:queue];
+	//dispatch_release(queue);
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
     
     [captureOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
 
@@ -218,6 +349,10 @@ uint8_t *shadingPtr=nil;
     session.sessionPreset = AVCaptureSessionPresetMedium;
     //session.sessionPreset = AVCaptureSessionPresetLow;
     
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
     prevLayer = [AVCaptureVideoPreviewLayer layerWithSession: session];
     [prevLayer setOrientation:AVCaptureVideoOrientationLandscapeRight];
     
@@ -232,6 +367,18 @@ uint8_t *shadingPtr=nil;
         [self.view.layer addSublayer:_markerLayre];
     }
     
+<<<<<<< HEAD
+=======
+=======
+//    AVCaptureVideoPreviewLayer *prevLayer = [AVCaptureVideoPreviewLayer layerWithSession: session];
+//    [prevLayer setOrientation:AVCaptureVideoOrientationLandscapeRight];
+//    
+//    prevLayer.frame = CGRectMake(0.0, 0.0, 480 , 320);
+//    prevLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+//    [self.view.layer addSublayer: prevLayer];
+//    
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
     
 	[session addInput:captureInput];
 	[session addOutput:captureOutput];
@@ -248,10 +395,22 @@ uint8_t *shadingPtr=nil;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
     [eTypeSeg setTransform:CGAffineTransformMakeRotation(M_PI/2)]; 
     [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(initCapture) userInfo:nil repeats:NO];
     
 
+<<<<<<< HEAD
+=======
+=======
+    //[self initCapture];
+    [eTypeSeg setTransform:CGAffineTransformMakeRotation(M_PI/2)]; 
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(initCapture) userInfo:nil repeats:NO];
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
 }
 
 
