@@ -1,0 +1,486 @@
+Tcamera
+v3
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/Info.plist camera-Info.plist
+cProcessPCH /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch.gch camera-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraAppDelegate.o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraViewController.o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/main.o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera normal armv7
+cGenerateDSYMFile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app.dSYM /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera
+cCopyPlistFile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera-Info.plist camera-Info.plist
+cCompileXIB /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/flashBackViewController.xib
+cCompileXIB /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/MainWindow.xib
+cProcessProductPackaging "/Users/sekikawayusuke/Library/MobileDevice/Provisioning Profiles/C964128E-4F54-41E5-8FAA-8245CB631CB3.mobileprovision" /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/embedded.mobileprovision
+cTouch /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent
+cCodeSign /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D9A119B0000000000000110
+t1301942683
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D99FDC6000000000022E2B0
+t1301937606
+s2286256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D99FDB000000000000007D0
+t1301937584
+s2000
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004D93DC390000000000004180
+t1301535801
+s16768
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers/ALAssetsLibrary.h
+c000000004D9A00DE000000000000222B
+t1301938398
+s8747
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004D93E00400000000003C1690
+t1301536772
+s3937936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93E13C00000000003532B0
+t1301537084
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004D99F89A00000000000EBFA0
+t1301936282
+s966560
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004D93E2AD0000000000030F30
+t1301537453
+s200496
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93E1FD00000000003E22F0
+t1301537277
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIO.h
+c000000004D93E2880000000000000186
+t1301537416
+s390
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c000000004D93E29800000000001B4A10
+t1301537432
+s1788432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D93E47700000000000000C4
+t1301537911
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D93E5B7000000000026CB10
+t1301538231
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D99FA7C0000000000000AA1
+t1301936764
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D99FAFA0000000000CA2AE0
+t1301936890
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/TargetConditionals.h
+c000000004D4F74C200000000000031E9
+t1297052866
+s12777
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/math.h
+c000000004D4F6E4300000000000004F1
+t1297051203
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D4F6E910000000000001A3A
+t1297051281
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/time.h
+c000000004D93DBA10000000000001E64
+t1301535649
+s7780
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/arm_neon.h
+c000000004D93D98900000000000006B5
+t1301535113
+s1717
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/ImageProcessing.framework/Headers/ImageProcessing.h
+c000000004DE8744F0000000000000796
+t1307079759
+s1942
+i<UIKit/UIKit.h>
+i"ImageProcessingHelper.h"
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/ImageProcessing.framework/Headers/ImageProcessingHelper.h
+c000000004DE8E92900000000000003D3
+t1307109673
+s979
+i<UIKit/UIKit.h>
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/ImageProcessing.framework/Headers/effect.h
+c000000004DE8744F00000000000047AD
+t1307079759
+s18349
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i<TargetConditionals.h>
+i<arm_neon.h>
+i<jni.h>
+i<android/log.h>
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/../ImageProcessing.framework/ImageProcessing
+c000000004DE88D32000000000099CE54
+t1307086130
+s10079828
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.h
+c000000004DE9D9E000000000000007A3
+t1307171296
+s1955
+i<UIKit/UIKit.h>
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.m
+c000000004DE9D9E00000000000000F67
+t1307171296
+s3943
+i"cameraAppDelegate.h"
+i"cameraViewController.h"
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.h
+c000000004DE9D9E000000000000008E6
+t1307171296
+s2278
+i<UIKit/UIKit.h>
+i<AssetsLibrary/ALAssetsLibrary.h>
+i<AVFoundation/AVFoundation.h>
+i<ImageIO/ImageIO.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.m
+c000000004DE9DA85000000000000239D
+t1307171461
+s9117
+i"cameraViewController.h"
+i<ImageProcessing/ImageProcessing.h>
+i<ImageProcessing/effect.h>
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/camera.LinkFileList
+c000000004DE9DDA200000000000002DE
+t1307172258
+s734
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraAppDelegate.o
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraViewController.o
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch.gch
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app.dSYM
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/Info.plist
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/MainWindow.nib
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/PkgInfo
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plist
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera-Info.plist
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/flashBackViewController.nib
+t2
+s0
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/MainWindow.xib
+c000000004DE9D6A20000000000002E42
+t1307170466
+s11842
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/flashBackViewController.xib
+c000000004DE9D5FA000000000000308C
+t1307170298
+s12428
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/camera-Info.plist
+c000000004DE9D7A200000000000004E5
+t1307170722
+s1253
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/camera-Prefix.pch
+c000000004DE9D842000000000000025E
+t1307170882
+s606
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/main.m
+c000000004DE9D8170000000000000165
+t1307170839
+s357
+i<UIKit/UIKit.h>
+
+N/Users/sekikawayusuke/Library/MobileDevice/Provisioning Profiles/C964128E-4F54-41E5-8FAA-8245CB631CB3.mobileprovision
+c000000004DE4EE7E000000000000276F
+t1306848894
+s10095
+
+Ncamera-Info.plist
+c000000004DE9D7A200000000000004E5
+t1307170722
+s1253
+
+CBuild AST from /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.m
+r0
+
+CBuild AST from /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.m
+r0
+
+CBuild AST from /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb323d122159ab341^da74ec22159ab341^-113"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'camera-Info.plist'.1(21%IDEActivityLogMessage2@106"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'camera-Info.plist'.-328865058#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies
+
+CCodeSign /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+s328865061.284473
+e328865061.502961
+r1
+xCodeSign
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CodeSign DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app82e54825159ab341^b9c18025159ab341^---0#0#0#-19%DVTDocumentLocation2@201"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/0000000000000000^1150"CodeSign DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Yusuke Sekikawa (L98UKNS65F)" --resource-rules=/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plist --entitlements /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+
+CCompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraAppDelegate.o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s328865059.621974
+e328865059.823689
+r1
+xCompileC
+xDerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraAppDelegate.o
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Compile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.m4b589f23159ab341^f4dcd223159ab341^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.m0000000000000000^3410"CompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraAppDelegate.o Classes/cameraAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DDEBUG_MODE=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mno-thumb -miphoneos-version-min=4.0 -iquote /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-generated-files.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-own-target-headers.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-all-target-headers.hmap -iquote /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-project-headers.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/include -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/DerivedSources/armv7 -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/DerivedSources -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/.. -include /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch -c /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraAppDelegate.m -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraAppDelegate.o
+
+CCompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraViewController.o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s328865059.622661
+e328865059.935536
+r1
+xCompileC
+xDerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraViewController.o
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Compile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.m677c9f23159ab341^067fef23159ab341^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.m0000000000000000^3422"CompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraViewController.o Classes/cameraViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DDEBUG_MODE=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mno-thumb -miphoneos-version-min=4.0 -iquote /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-generated-files.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-own-target-headers.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-all-target-headers.hmap -iquote /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-project-headers.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/include -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/DerivedSources/armv7 -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/DerivedSources -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/.. -include /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch -c /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Classes/cameraViewController.m -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/cameraViewController.o
+
+CCompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/main.o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s328865059.824061
+e328865059.898272
+r1
+xCompileC
+xDerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/main.o
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Compile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/main.mfe0cd323159ab341^4d13e623159ab341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/main.m0000000000000000^3342"CompileC DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DDEBUG_MODE=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mno-thumb -miphoneos-version-min=4.0 -iquote /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-generated-files.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-own-target-headers.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-all-target-headers.hmap -iquote /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-project-headers.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/include -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/DerivedSources/armv7 -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/DerivedSources -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/.. -include /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch -c /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/main.m -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/main.o
+
+CCompileXIB /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/MainWindow.xib
+s328865060.206383
+e328865061.247512
+r1
+xCompileXIB
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compiling /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/MainWindow.xibbce73424159ab341^035d3f25159ab341^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/MainWindow.xib0000000000000000^866"CompileXIB Nib/MainWindow.xib    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/MainWindow.nib /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCompileXIB /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/flashBackViewController.xib
+s328865060.202632
+e328865061.204838
+r1
+xCompileXIB
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/flashBackViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Compiling /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/flashBackViewController.xibbbec3324159ab341^54703425159ab341^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/flashBackViewController.xib0000000000000000^905"CompileXIB Nib/flashBackViewController.xib    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/flashBackViewController.nib /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/Nib/flashBackViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+
+CCopyPlistFile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera-Info.plist camera-Info.plist
+s328865060.202018
+e328865060.206295
+r1
+xCopyPlistFile
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera-Info.plist
+xcamera-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection22"Copy camera-Info.plist65c63324159ab341^28b63624159ab341^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/camera-Info.plist0000000000000000^621"CopyPlistFile DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera-Info.plist camera-Info.plist    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app -- camera-Info.plist
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plist
+s328865058.931431
+e328865058.933509
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+xDerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plisted81ee22159ab341^8a00ef22159ab341^---0#0#0#-19%DVTDocumentLocation2@220"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plist0000204d2205f041^811"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plist    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+
+CGenerateDSYMFile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app.dSYM /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera
+s328865060.142492
+e328865060.200515
+r1
+xGenerateDSYMFile
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app.dSYM
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection200"Generating /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app.dSYM448b2424159ab341^8e583324159ab341^---0#0#0#-19%DVTDocumentLocation2@205"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app.dSYM0000204d2205f041^824"GenerateDSYMFile DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app.dSYM DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app.dSYM
+
+CLd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera normal armv7
+s328865059.936032
+e328865060.141952
+r1
+xLd
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera
+xnormal
+xarmv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"Link /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera91b4ef23159ab341^f65e2424159ab341^---0#0#0#--1777"Ld DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera normal armv7    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/.. -filelist /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/Objects-normal/armv7/camera.LinkFileList -dead_strip -lz -lstdc++ -miphoneos-version-min=4.0 -framework Foundation -framework CoreVideo -framework CoreMedia -framework UIKit -framework ImageProcessing -framework CoreFoundation -framework Accelerate -framework QuartzCore -framework ImageIO -framework AVFoundation -framework CoreGraphics -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/camera
+
+CProcessInfoPlistFile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/Info.plist camera-Info.plist
+s328865058.932438
+e328865058.940598
+r1
+xProcessInfoPlistFile
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/Info.plist
+xcamera-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process camera-Info.plist6ac2ee22159ab341^00e4f022159ab341^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/camera-Info.plist0000000000000000^1096"ProcessInfoPlistFile DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/Info.plist camera-Info.plist    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility camera-Info.plist -genpkginfo /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/ResourceRules.plist -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/Info.plist
+
+CProcessPCH /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch.gch camera-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s328865058.943080
+e328865059.621026
+r1
+xProcessPCH
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch.gch
+xcamera-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile camera-Prefix.pch118af122159ab341^990c9f23159ab341^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/camera-Prefix.pch0000000000000000^3132"ProcessPCH DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch.gch camera-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DDEBUG_MODE=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mno-thumb -miphoneos-version-min=4.0 -iquote /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-generated-files.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-own-target-headers.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-all-target-headers.hmap -iquote /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera-project-headers.hmap -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/include -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/DerivedSources/armv7 -I/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/DerivedSources -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos -F/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/.. -c /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/camera-Prefix.pch -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/PrecompiledHeaders/camera-Prefix-hansqybcdlnelndrebzjwrqwmdjg/camera-Prefix.pch.gch
+
+CProcessPCH /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Index/PrecompiledHeaders/camera-Prefix-aiaqmaiypfevxgawtoroqjniybuh_ast/camera-Prefix.pch.pth camera-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/sekikawayusuke/Library/MobileDevice/Provisioning Profiles/C964128E-4F54-41E5-8FAA-8245CB631CB3.mobileprovision" /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/embedded.mobileprovision
+s328865061.248963
+e328865061.251185
+r1
+xProcessProductPackaging
+x/Users/sekikawayusuke/Library/MobileDevice/Provisioning Profiles/C964128E-4F54-41E5-8FAA-8245CB631CB3.mobileprovision
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/embedded.mobileprovision
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection230"ProcessProductPackaging "/Users/sekikawayusuke/Library/MobileDevice/Provisioning Profiles/C964128E-4F54-41E5-8FAA-8245CB631CB3.mobileprovision" DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/embedded.mobileprovision53ce3f25159ab341^34494025159ab341^---0#0#0#-19%DVTDocumentLocation2@225"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/embedded.mobileprovision0000204d2205f041^860"ProcessProductPackaging "/Users/sekikawayusuke/Library/MobileDevice/Provisioning Profiles/C964128E-4F54-41E5-8FAA-8245CB631CB3.mobileprovision" DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/embedded.mobileprovision    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sekikawayusuke/Library/MobileDevice/Provisioning Profiles/C964128E-4F54-41E5-8FAA-8245CB631CB3.mobileprovision" -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app/embedded.mobileprovision
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent
+s328865061.261285
+e328865061.283166
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection209"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent77f54225159ab341^42784825159ab341^---0#0#0#-19%DVTDocumentLocation2@235"file://localhost/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent0000204d2205f041^844"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Intermediates/camera01.build/Debug-iphoneos/camera.build/camera.xcent
+
+CTouch /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+s328865061.252430
+e328865061.259576
+r1
+xTouch
+x/Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"Touch /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app6dac4025159ab341^ee794225159ab341^---0#0#0#--529"Touch DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app    cd /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sekikawayusuke/Dropbox/Dev/ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/camera.app
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
+>>>>>>> d700082ab5d450f86b614a3dc8540a88de6de29a
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "Classes/cameraViewController.h"
+         timestampString = "328875211.025875"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "55"
+         endingLineNumber = "55"
+         landmarkName = "prevLayer"
+         landmarkType = "19">
+      </FileBreakpoint>
+   </FileBreakpoints>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
+>>>>>>> d700082ab5d450f86b614a3dc8540a88de6de29a
+</Bucket>
