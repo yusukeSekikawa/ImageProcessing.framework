@@ -2,6 +2,13 @@
 <Bucket
    type = "1"
    version = "1.0">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
    <FileBreakpoints>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -18,4 +25,12 @@
          landmarkType = "19">
       </FileBreakpoint>
    </FileBreakpoints>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
 </Bucket>

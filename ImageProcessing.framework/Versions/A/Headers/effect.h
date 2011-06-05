@@ -22,6 +22,13 @@
 #include <string.h>
 #include <math.h>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
 /************Neon Setting************/
 #if (TARGET_PF==TARGET_IOS)
 #import <TargetConditionals.h>
@@ -41,6 +48,20 @@
 /***********END********************/
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+/*Neon sttting*/
+#define USE_NEON
+
+#ifdef USE_NEON
+#include <arm_neon.h>
+#endif //NEON
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
 /*Android Specific*/
 #if TARGET_PF==TARGET_ADNROID
 /*------ANDROID-------*/
@@ -48,7 +69,18 @@
 #include <android/log.h>
 #elif TARGET_PF==TARGET_IOS
 /*------IOS-------*/
+<<<<<<< HEAD
 #endif
+=======
+<<<<<<< HEAD
+#endif
+=======
+<<<<<<< HEAD
+#endif
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
 /**
  * ... Function Prototype -1 ...
  */
@@ -468,6 +500,13 @@ int Java_sekki_VEffects_Main_effectRainbow(JNIEnv* env,jobject thiz, jintArray s
 #endif
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
 #if TARGET_PF==TARGET_ADNROID
 jboolean Java_sekki_VEffects_Main_effectEdge(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height);
 #elif TARGET_PF==TARGET_IOS	
@@ -475,6 +514,14 @@ jboolean Java_sekki_VEffects_Main_effectEdge(JNIEnv* env,jobject thiz, jintArray
 #endif
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
 /**
  * effectFastShading
  *
@@ -539,6 +586,16 @@ int createShadingTable(uint8_t* shadingTable,int width,int height,uint8_t *table
  */
 int inspectGetRGB(int* arr1,int width,int height,int inspectX,int inspectY,int inspectW,int inspectH);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
 
 /*Function Prototype -4 Private */
 int addCopyDetectionCode(int *bufPtr,int width,int height); 
