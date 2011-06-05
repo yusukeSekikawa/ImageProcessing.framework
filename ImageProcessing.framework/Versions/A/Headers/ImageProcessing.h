@@ -3,9 +3,30 @@
 //
 
 #import <UIKit/UIKit.h>
+<<<<<<< HEAD
 #import "ImageProcessingHelper.h"
 
 
+=======
+<<<<<<< HEAD
+#import "ImageProcessingHelper.h"
+
+
+=======
+<<<<<<< HEAD
+#import "ImageProcessingHelper.h"
+
+
+=======
+<<<<<<< HEAD
+#import "ImageProcessingHelper.h"
+
+
+=======
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
+>>>>>>> d700082ab5d450f86b614a3dc8540a88de6de29a
 
 #define CV_FACE_DETECT_SLOW_WITHOUT_PROFILE 0x01
 #define CV_FACE_DETECT_SLOW_WITH_PROFILE 0x81
@@ -14,13 +35,50 @@
 
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+typedef struct {
+	uint8_t *imagePtr;
+	int height;
+	int width;
+	int bytesPerRow;
+	CFDataRef data;
+    CGDataProviderRef dataProvider;
+} _imageInfo;
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
+>>>>>>> d700082ab5d450f86b614a3dc8540a88de6de29a
 
 @interface ImageProcessing : NSObject {
 	;
 }
 + (void)cleanUpCV;
 + (NSArray*)detectFace:(uint8_t*)sourcePtr width:(int)width height:(int)height type:(int)type;
+<<<<<<< HEAD
 + (UIImage*)effectEdge:(UIImage *)sourceImage;
+=======
+<<<<<<< HEAD
++ (UIImage*)effectEdge:(UIImage *)sourceImage;
+=======
+<<<<<<< HEAD
++ (UIImage*)effectEdge:(UIImage *)sourceImage;
+=======
+<<<<<<< HEAD
++ (UIImage*)effectEdge:(UIImage *)sourceImage;
+=======
++ (UIImage*)effectFastLine:(uint8_t *)sourcePtr width:(int)width height:(int)height;
++ (UIImage*)effectLine:(UIImage *)sourceImage;
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
+>>>>>>> d700082ab5d450f86b614a3dc8540a88de6de29a
 + (UIImage*)effectBW:(UIImage *)sourceImage;
 + (UIImage*)effectBin:(UIImage *)sourceImage th:(int)th color:(int)color;
 + (UIImage*)effectBlur:(UIImage *)sourceImage pointX:(int)pointX pointY:(int)pointY power:(int)power;

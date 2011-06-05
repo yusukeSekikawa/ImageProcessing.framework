@@ -35,7 +35,23 @@
 #import <AVFoundation/AVFoundation.h>
 #import <ImageIO/ImageIO.h>
 #import <QuartzCore/QuartzCore.h>
+<<<<<<< HEAD
 #import "markerLayer.h"
+=======
+<<<<<<< HEAD
+#import "markerLayer.h"
+=======
+<<<<<<< HEAD
+#import "markerLayer.h"
+=======
+<<<<<<< HEAD
+#import "markerLayer.h"
+=======
+
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
+>>>>>>> d700082ab5d450f86b614a3dc8540a88de6de29a
 
 #define TYPE_1  0x00000001
 #define TYPE_2  0x00000002
@@ -47,11 +63,34 @@
     void *_filteredImageBuffer;
     void *_shadingData;
     size_t _filteredImageBufferSize;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
+>>>>>>> d700082ab5d450f86b614a3dc8540a88de6de29a
     
     markerLayer *_markerLayre;
     AVCaptureVideoPreviewLayer *_prevLayer;
 }
 @property (retain) AVCaptureSession *_session;
 @property (nonatomic,retain) AVCaptureVideoPreviewLayer *_prevLayer;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+}
+@property (retain) AVCaptureSession *_session;
+>>>>>>> 6b3149e71160485a21af43630cb6366a63ac8ccb
+>>>>>>> c77b0b452ca96cc8eb26b0db7bae3b900d481759
+>>>>>>> fb64a569f77f9873fcf1811d4ac04b499c6d2be5
+>>>>>>> d700082ab5d450f86b614a3dc8540a88de6de29a
 
 @end
