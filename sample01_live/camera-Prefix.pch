@@ -1,0 +1,24 @@
+//
+// Prefix header for all source files of the 'camera' target in the 'camera' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#ifdef DEBUG_MODE
+#import <sys/time.h>
+#define TIC() struct timeval ts; gettimeofday(&ts, NULL)
+#define TOC(s) struct timeval te; gettimeofday(&te, NULL); NSLog(@"%@: %f sec", s, te.tv_sec + te.tv_usec * 1e-6 - (ts.tv_sec + ts.tv_usec * 1e-6))
+#else
+#define TIC()
+#define TOC(s)
+#endif
