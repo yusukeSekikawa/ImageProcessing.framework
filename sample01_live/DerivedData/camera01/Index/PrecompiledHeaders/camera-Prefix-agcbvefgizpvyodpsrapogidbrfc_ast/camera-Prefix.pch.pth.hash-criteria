@@ -1,0 +1,32 @@
+Contents of /Users/yusukesekikawa/Dropbox/Dev/sample01_live/camera-Prefix.pch
+2.0 (tags/Apple/clang-139) (based on LLVM 2.9svn)
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-fdiagnostics-print-source-range-info
+-fdiagnostics-show-category=id
+-fdiagnostics-parseable-fixits
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG
+-DDEBUG_MODE=1
+-isysroot
+/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+-gdwarf-2
+-miphoneos-version-min=4.0
+-iquote
+-iquote
+-I/Users/yusukesekikawa/Dropbox/Dev/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos/include
+-F/Users/yusukesekikawa/Dropbox/Dev/sample01_live/DerivedData/camera01/Build/Products/Debug-iphoneos
+-F/Users/yusukesekikawa/Dropbox/Dev/sample01_live/..
+-F/Users/yusukesekikawa/Dropbox/Dev/sample01_live/../ImageProcessing/DerivedData/ImageProcessing/Build/Products/Debug-framework
+-DIBOutlet=__attribute__((iboutlet))
+-DIBAction=void)__attribute__((ibaction)
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection))
+-ferror-limit=10
+-working-directory=/Users/yusukesekikawa/Dropbox/Dev/sample01_live
+-Xclang
+-detailed-preprocessing-record
