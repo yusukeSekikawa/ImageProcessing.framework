@@ -5,14 +5,15 @@ ImageProcessing.framework
 
 NOTE
 =======
-+This framework and sample project currently works only iOS devices with armv7(iPhone3G and 1st gen iPodTouch is not supported.I will support armv6 and simulator in future).
++This framework and sample project currently works only iOS devices with armv7(iPhone3G and 1st gen iPodTouch is not supported.<br>
+I will support armv6 and simulator in future).<br><br>
 
-Please set the following configuration when creating your own project.
-+In your project setting,set architecture to armv7.(override)
-+In your project setting,turn Thumb instruction to Off
-+In your project setting,set Optimization Level to O3
-+Add Accelerate.framework
-+Add haarcascades to your project in framework.
+Please set the following configuration when creating your own project.<br>
++In your project setting,set architecture to armv7.(override)<br>
++In your project setting,turn Thumb instruction to Off<br>
++In your project setting,set Optimization Level to O3<br>
++Add Accelerate.framework<br>
++Add haarcascades to your project in framework.<br>
 
 Android version will be release soon.
 
@@ -20,10 +21,10 @@ FEATURE
 =======
 +VERY FAST face detection. <br>
   8fps[iPhone4,OS 4.3.2,face exist]
-+Various fast image effect including Edge,Grayscale,Binarization,Blur,Postalization,Mirror,Spot Color,Residual image,Fish Eye,Gamma manupuration,Dither,Swap Color...and More!
-  Many effects is very high speed that you can use it with live view effect like sample code.
-+Easy to use.
-  There is C and Objective-C APIs that is simple to apply with iOS.
++Various fast image effect including Edge,Grayscale,Binarization,Blur,Postalization,Mirror,Spot Color,Residual image,Fish Eye,Gamma manupuration,Dither,Swap Color...and More!<br>
+  Many effects is very high speed that you can use it with live view effect like sample code.<br>
++Easy to use.<br>
+  There is C and Objective-C APIs that is simple to apply with iOS.<br>
 
 
 App Store
