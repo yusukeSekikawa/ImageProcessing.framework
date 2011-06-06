@@ -1,6 +1,3 @@
-ImageProcessing.framework
-
-=======
 ![](http://blog-imgs-42.fc2.com/v/a/n/vanishlab/originalICON.png)
 
 NOTE
