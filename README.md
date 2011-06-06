@@ -108,7 +108,7 @@ the use of this software, even if advised of the possibility of such damage.
 
 [facebook]: http://www.facebook.com/yusuke.sekikawa
 
-[twitter]: @YusukeSekikawa
+[twitter]: http://twitter.com/#!/YusukeSekikawa
 
 [BSD License]: http://www.opensource.org/licenses/bsd-license.php
 
