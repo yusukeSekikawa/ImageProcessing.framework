@@ -4,7 +4,7 @@
 FEATURE
 =======
 +VERY FAST face detection. <br>
-  8fps[iPhone4,OS 4.3.2,face exist]
+  8fps[iPhone4,OS 4.3.2,face exist]<br>
 +Various fast image effect including Edge,Grayscale,Binarization,Blur,Postalization,Mirror,Spot Color,Residual image,Fish Eye,Gamma manupuration,Dither,Swap Color...and More!<br>
   Many effects is very high speed that you can use it with live view effect like sample code.<br>
 +Easy to use.<br>
