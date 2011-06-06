@@ -1,18 +1,5 @@
 ![](http://blog-imgs-42.fc2.com/v/a/n/vanishlab/originalICON.png)
 
-NOTE
-=======
-+This framework and sample project currently works only iOS devices with armv7(iPhone3G and 1st gen iPodTouch is not supported.<br>
-I will support armv6 and simulator in future).<br><br>
-
-Please set the following configuration when creating your own project.<br>
-+In your project setting,set architecture to armv7.(override)<br>
-+In your project setting,turn Thumb instruction to Off<br>
-+In your project setting,set Optimization Level to O3<br>
-+Add Accelerate.framework<br>
-+Add haarcascades to your project in framework.<br>
-
-Android version will be release soon.
 
 FEATURE
 =======
@@ -23,6 +10,20 @@ FEATURE
 +Easy to use.<br>
   There is C and Objective-C APIs that is simple to apply with iOS.<br>
 
+HOW TO USE
+=======
+1.Download and open /sample01_live/camera01.xcodeproj<br>
+2.Run<br>
+*This framework and sample project currently works only iOS devices with armv7(iPhone3G and 1st gen iPodTouch is not supported.<br>
+I will support armv6 and simulator in future).<br><br>
+
+You can add ImageProcessing.framework to your project like other framework.
+*Please set the following configuration when using in your own project.<br>
+1.In your project setting,set architecture to armv7.(override)<br>
+2.In your project setting,turn Thumb instruction to Off<br>
+3.In your project setting,set Optimization Level to O3<br>
+4.Add Accelerate.framework<br>
+5.Add haarcascades to your project in framework.<br>
 
 App Store
 =======
@@ -31,6 +32,11 @@ You can download iOS APP [PiPic] using this framework on APP Store
 HP
 =======
 [vanishlab]
+
+Others
+=======
+Android version will be release soon.
+
 
 Dependency
 =======
