@@ -112,10 +112,10 @@ uint8_t *shadingPtr=nil;
             effectSwap((int *)baseAddress,_filteredImageBuffer,width,height,1);
             break;
         case 3:
-            effectBin((int *)baseAddress,(int *)_filteredImageBuffer,width,height,128,0xff000fff);
+            effectBin((int *)baseAddress,(int *)_filteredImageBuffer,width,height,128,0xff000fff,0xff000080);
             break; 
         case 4:
-            effectHiConBW((int *)baseAddress,_filteredImageBuffer,width,height);
+            effectBW((int *)baseAddress,_filteredImageBuffer,width,height);
             break; 
         case 5:
             effectMirror((int *)baseAddress,_filteredImageBuffer,width,height,0);
@@ -166,6 +166,7 @@ uint8_t *shadingPtr=nil;
     
     switch (eTypeSeg.selectedSegmentIndex) {
         case 0:
+        case 4:
             colorSpace =CGColorSpaceCreateDeviceGray();
             bytesPerPixel=8;
             bytesPerRowDiv=4;

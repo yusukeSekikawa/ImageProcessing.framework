@@ -110,9 +110,9 @@ int effectBW(int* arr1,int* arr2,int width,int height);
  * @retval false case Failure
  */
 #if TARGET_PF==TARGET_ADNROID
-jboolean Java_sekki_VEffects_Main_effectBin(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height,jint color);
+int Java_sekki_VEffects_Main_effectBin(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height,jint thresh,jint color1,jint color2);
 #elif TARGET_PF==TARGET_IOS
-int effectBin(int* arr1,int* arr2,int width,int height,int thresh,int color);
+int effectBin(int* arr1,int* arr2,int width,int height,int thresh,int color1,int color2);
 #endif
 /**
  * Blur Effect.
@@ -433,7 +433,7 @@ int effectOverlay2(int* src1,int* arr2,int* src2,int width,int height);
 #if TARGET_PF==TARGET_ADNROID
 jboolean Java_sekki_VEffects_Main_effectBlurFlatWeak(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height,jint power);
 #elif TARGET_PF==TARGET_IOS
-    int effectBlurFlatWeak(int* arr1,int* arr2,int width,int height,int power);
+int effectBlurFlatWeak(int* arr1,int* arr2,int width,int height,int power);
 #endif  
 
 
@@ -447,9 +447,9 @@ jboolean Java_sekki_VEffects_Main_effectBlurFlatWeak(JNIEnv* env,jobject thiz, j
  * @retval false case Failure
  */
 #if TARGET_PF==TARGET_ADNROID
-    jboolean Java_sekki_VEffects_Main_effectPST(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height); 
+jboolean Java_sekki_VEffects_Main_effectPST(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height); 
 #elif TARGET_PF==TARGET_IOS	
-    int effectPST(int* arr1,int* arr2,int width,int height);
+int effectPST(int* arr1,int* arr2,int width,int height);
 #endif 
 
 /**
@@ -462,18 +462,29 @@ jboolean Java_sekki_VEffects_Main_effectBlurFlatWeak(JNIEnv* env,jobject thiz, j
  * @retval false case Failure
  */
 #if TARGET_PF==TARGET_ADNROID
-int Java_sekki_VEffects_Main_effectRainbow(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height);  
+jboolean Java_sekki_VEffects_Main_effectRainbow(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height);  
 #elif TARGET_PF==TARGET_IOS			
-    int effectRainbow(int* arr1,int* arr2,int width,int height);
+int effectRainbow(int* arr1,int* arr2,int width,int height);
 #endif
 
 
 #if TARGET_PF==TARGET_ADNROID
 jboolean Java_sekki_VEffects_Main_effectEdge(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height);
 #elif TARGET_PF==TARGET_IOS	
-    int effecteEdge(int* arr1,int* arr2,int width,int height);
+int effecteEdge(int* arr1,int* arr2,int width,int height);
 #endif
 
+#if TARGET_PF==TARGET_ADNROID
+jboolean Java_sekki_VEffects_Main_effectAverage(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height,jint add_cnt);
+#elif TARGET_PF==TARGET_IOS			
+int effectAverage(int* arr1,int* arr2,int width,int height,int add_cnt);
+#endif
+
+#if TARGET_PF==TARGET_ADNROID
+jboolean Java_sekki_VEffects_Main_effectErace(JNIEnv* env,jobject thiz, jintArray src,jintArray buffer,jint width,jint height,jint centerColor,jint eraceWidth);
+#elif TARGET_PF==TARGET_IOS			
+int effectErace(int* arr1,int* arr2,int* buffer,int width,int height,int centerColor,int eraceWidth,int mode);
+#endif
 
 /**
  * effectFastShading
