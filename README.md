@@ -45,7 +45,7 @@ My colleague Ko Yokokawa designed HP and gave me advice
 
 References
 =======
-[A very fast BGRA to Grayscale conversion on Iphone « Computer Vision Talks]
+[A very fast BGRA to Grayscale conversion on Iphone « Computer Vision Talks]<br>
 [Optimizing OpenCV face detection for the i.MX51]
 
 License
@@ -95,7 +95,11 @@ the use of this software, even if advised of the possibility of such damage.
 
 
 [PiPic]: http://www.facebook.com/apps/application.php?id=168715359851028
+
 [vanishlab]: http://vanishlab.web.fc2.com/
+
 [BSD License]: http://www.opensource.org/licenses/bsd-license.php
+
 [A very fast BGRA to Grayscale conversion on Iphone « Computer Vision Talks]: http://computer-vision-talks.com/2011/02/a-very-fast-bgra-to-grayscale-conversion-on-iphone/
+
 [Optimizing OpenCV face detection for the i.MX51]: http://imxcommunity.org/group/computervisionusingtheimx/forum/topics/optimizing-opencv-face
