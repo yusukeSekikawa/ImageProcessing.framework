@@ -16,11 +16,6 @@ Please set the following configuration when creating your own project.
 
 Android version will be release soon.
 
-ImageProcessing.framework
-
-=======
-![](http://blog-imgs-42.fc2.com/v/a/n/vanishlab/originalICON.png)
-
 FEATURE
 =======
 +VERY FAST face detection.
