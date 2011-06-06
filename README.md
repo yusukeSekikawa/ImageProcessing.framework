@@ -1,16 +1,34 @@
 ImageProcessing.framework
 
 =======
-![](http://vanishlab.web.fc2.com/_src/sc228/x-code2082CC83R83s815B.png)
+![](http://blog-imgs-42.fc2.com/v/a/n/vanishlab/originalICON.png)
 
 NOTE
 =======
-Please set the following configuration.
++This framework and sample project currently works only iOS devices with armv7(iPhone3G and 1st gen iPodTouch is not supported.I will support armv6 and simulator in future).
+
+Please set the following configuration when creating your own project.
 +In your project setting,set architecture to armv7.(override)
 +In your project setting,turn Thumb instruction to Off
++In your project setting,set Optimization Level to O3
 +Add Accelerate.framework
++Add haarcascades to your project in framework.
 
 Android version will be release soon.
+
+ImageProcessing.framework
+
+=======
+![](http://blog-imgs-42.fc2.com/v/a/n/vanishlab/originalICON.png)
+
+FEATURE
+=======
++VERY FAST face detection.
+  8fps[iPhone4,OS 4.3.2,face exist]
++Various fast image effect including Edge,Grayscale,Binarization,Blur,Postalization,Mirror,Spot Color,Residual image,Fish Eye,Gamma manupuration,Dither,Swap Color...and More!
+  Many effects is very high speed that you can use it with live view effect like sample code.
++Easy to use.
+  There is C and Objective-C APIs that is simple to apply with iOS.
 
 
 App Store
