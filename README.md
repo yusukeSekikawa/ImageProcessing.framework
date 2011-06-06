@@ -18,7 +18,7 @@ Android version will be release soon.
 
 FEATURE
 =======
-+VERY FAST face detection.
++VERY FAST face detection. <br>
   8fps[iPhone4,OS 4.3.2,face exist]
 +Various fast image effect including Edge,Grayscale,Binarization,Blur,Postalization,Mirror,Spot Color,Residual image,Fish Eye,Gamma manupuration,Dither,Swap Color...and More!
   Many effects is very high speed that you can use it with live view effect like sample code.
@@ -41,6 +41,11 @@ Accelerate.framework
 Acknowledgement
 =======
 My colleague Ko Yokokawa designed HP and gave me advice
+
+References
+=======
+[A very fast BGRA to Grayscale conversion on Iphone « Computer Vision Talks]
+[Optimizing OpenCV face detection for the i.MX51]
 
 License
 =======
@@ -91,4 +96,5 @@ the use of this software, even if advised of the possibility of such damage.
 [PiPic]: http://www.facebook.com/apps/application.php?id=168715359851028
 [vanishlab]: http://vanishlab.web.fc2.com/
 [BSD License]: http://www.opensource.org/licenses/bsd-license.php
-
+[A very fast BGRA to Grayscale conversion on Iphone « Computer Vision Talks]: http://computer-vision-talks.com/2011/02/a-very-fast-bgra-to-grayscale-conversion-on-iphone/
+[Optimizing OpenCV face detection for the i.MX51]: http://imxcommunity.org/group/computervisionusingtheimx/forum/topics/optimizing-opencv-face
