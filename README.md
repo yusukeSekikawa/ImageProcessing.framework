@@ -42,6 +42,11 @@ Dependency
 =======
 Accelerate.framework
  
+Contacts
+=======
+[facebook]<br>
+[twitter]
+
 Acknowledgement
 =======
 My colleague Ko Yokokawa designed HP and gave me advice
@@ -100,6 +105,10 @@ the use of this software, even if advised of the possibility of such damage.
 [PiPic]: http://www.facebook.com/apps/application.php?id=168715359851028
 
 [vanishlab]: http://vanishlab.web.fc2.com/
+
+[facebook]: http://www.facebook.com/yusuke.sekikawa
+
+[twitter]: @YusukeSekikawa
 
 [BSD License]: http://www.opensource.org/licenses/bsd-license.php
 
