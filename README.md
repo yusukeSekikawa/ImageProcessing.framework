@@ -29,9 +29,10 @@ App Store
 =======
 You can download iOS APP [PiPic] using this framework on APP Store
 
-HP
+HP & Blog
 =======
-[vanishlab]
+[vanishlab](In construction)<br>
+[blog]
 
 Others
 =======
@@ -105,6 +106,8 @@ the use of this software, even if advised of the possibility of such damage.
 [PiPic]: http://www.facebook.com/apps/application.php?id=168715359851028
 
 [vanishlab]: http://vanishlab.web.fc2.com/
+
+[blog]: http://vanishlab.blog128.fc2.com/blog-entry-24.html
 
 [facebook]: http://www.facebook.com/yusuke.sekikawa
 
