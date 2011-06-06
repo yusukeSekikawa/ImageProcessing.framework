@@ -29,9 +29,9 @@ App Store
 =======
 You can download iOS APP [PiPic] using this framework on APP Store
 
-HP & Blog
+HP((In construction)) & Blog
 =======
-[vanishlab](In construction)<br>
+[vanishlab]<br>
 [blog]
 
 Others
