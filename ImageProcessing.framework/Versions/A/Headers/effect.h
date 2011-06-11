@@ -97,6 +97,8 @@ int addText(int* arr1,int* arr2,int width,int height,int textHeight,int textWidt
 jboolean Java_sekki_VEffects_Main_effectBW(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height);
 #elif TARGET_PF==TARGET_IOS
 int effectBW(int* arr1,int* arr2,int width,int height);
+int effectBW_1_4(int* arr1,int* arr2,int width,int height);
+int effectBW_1_2(int* arr1,int* arr2,int width,int height);
 #endif
 /**
  * Binary Effect.
@@ -477,7 +479,7 @@ int effecteEdge(int* arr1,int* arr2,int width,int height);
 #if TARGET_PF==TARGET_ADNROID
 jboolean Java_sekki_VEffects_Main_effectAverage(JNIEnv* env,jobject thiz, jintArray src,jint width,jint height,jint add_cnt);
 #elif TARGET_PF==TARGET_IOS			
-int effectAverage(int* arr1,int* arr2,int width,int height,int add_cnt);
+int effectAverage(int* arr1,int* arr2,int* buffer,int width,int height,int add_cnt);
 #endif
 
 #if TARGET_PF==TARGET_ADNROID
@@ -548,8 +550,7 @@ int createShadingTable(uint8_t* shadingTable,int width,int height,uint8_t *table
  * @retval 0xFFRRGGBB format in Success
  * @retval case error 0X00******
  */
-int inspectGetRGB(int* arr1,int width,int height,int inspectX,int inspectY,int inspectW,int inspectH);
-
+int inspectDiffs(int* newPtr,int* oldPtr,int width,int height,int inspectX,int inspectY,int inspectW,int inspectH);
 
 /*Function Prototype -4 Private */
 int addCopyDetectionCode(int *bufPtr,int width,int height); 

@@ -4,21 +4,35 @@
 
 #import <Availability.h>
 
-#ifndef __IPHONE_3_0
-#warning "This project uses features only available in iPhone SDK 3.0 and later."
-#endif
-
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #endif
-
-
-#ifdef DEBUG_MODE
-#import <sys/time.h>
-#define TIC() struct timeval ts; gettimeofday(&ts, NULL)
-#define TOC(s) struct timeval te; gettimeofday(&te, NULL); NSLog(@"%@: %f sec", s, te.tv_sec + te.tv_usec * 1e-6 - (ts.tv_sec + ts.tv_usec * 1e-6))
+#if TARGET_IPHONE_SIMULATOR
+#import <objc/objc-runtime.h>
 #else
-#define TIC()
-#define TOC(s)
+#import <objc/runtime.h>
 #endif
+
+#ifdef	_DEBUG
+#define	DNSLog(...);	NSLog(__VA_ARGS__);
+#define DNSLogMethod	NSLog(@"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd));
+#define DNSLogPoint(p)	NSLog(@"%f,%f", p.x, p.y);
+#define DNSLogSize(p)	NSLog(@"%f,%f", p.width, p.height);
+#define DNSLogRect(p)	NSLog(@"%f,%f %f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+
+CFAbsoluteTime startTime;
+#define D_START			startTime=CFAbsoluteTimeGetCurrent();
+#define D_END			DNSLog(@"[%s] %@ %f seconds", class_getName([self class]), NSStringFromSelector(_cmd), CFAbsoluteTimeGetCurrent() - startTime );
+#else
+#define DNSLog(...);	// NSLog(__VA_ARGS__);
+#define DNSLogMethod	// NSLog(@"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd) );
+#define DNSLogPoint(p)	// NSLog(@"%f,%f", p.x, p.y);
+#define DNSLogSize(p)	// NSLog(@"%f,%f", p.width, p.height);
+#define DNSLogRect(p)	// NSLog(@"%f,%f %f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+
+#define D_START			// CFAbsoluteTime startTime=CFAbsoluteTimeGetCurrent();
+#define D_END			// DNSLog(@"New %f seconds", CFAbsoluteTimeGetCurrent() - startTime );
+#endif
+
+#define SAFE_FREE(p) { if(p) { free(p); (p)=NULL; } }

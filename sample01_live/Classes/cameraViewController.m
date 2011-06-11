@@ -41,10 +41,6 @@ uint8_t *shadingPtr=nil;
 - (void)dealloc
 {
     [_session release];
-	if (_shadingData)
-	{
-		free(_shadingData);
-	}
     if (_filteredImageBuffer)
 	{
 		free(_filteredImageBuffer);
@@ -82,9 +78,20 @@ uint8_t *shadingPtr=nil;
         if (_filteredImageBuffer)
             free(_filteredImageBuffer);
         _filteredImageBuffer = malloc(bufSize);
+        _filteredImageBufferSize=bufSize;
         if (!_filteredImageBuffer)
             return;
     }
+    if (_universalImageBufferSize < bufSize)
+    {
+        if (_universalImageBuffer)
+            free(_universalImageBuffer);
+        _universalImageBuffer = malloc(bufSize);
+        _universalImageBufferSize=bufSize;
+        if (!_universalImageBufferSize)
+            return;
+    }
+    
     switch (eTypeSeg.selectedSegmentIndex){
         case 11:
             if(prevLayer.hidden){
@@ -124,13 +131,7 @@ uint8_t *shadingPtr=nil;
             effectBlur((int *)baseAddress,_filteredImageBuffer,width,height,width/2,height/2,64);
             break; 
         case 7:
-            if(_shadingData==NULL){
-                _shadingData=malloc(width*height*4);
-                createShadingTable(_shadingData,width,height, NULL, 0, 0);
-                NSLog(@"Create shading table");
-            }
-            effectFastShading((int *)baseAddress,_filteredImageBuffer,width,height,_shadingData);
-            //effectHiContrast((int *)baseAddress,_filteredImageBuffer,width,heightO);
+            effectAverage((int *)baseAddress,_filteredImageBuffer,(int *)_universalImageBuffer,width,height,30);
             break;
         case 8:
             effectPST((int *)baseAddress,_filteredImageBuffer,width,height);

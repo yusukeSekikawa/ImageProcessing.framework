@@ -45,8 +45,9 @@
     IBOutlet UIImageView *liveView;
     IBOutlet UISegmentedControl *eTypeSeg;  
     void *_filteredImageBuffer;
-    void *_shadingData;
+    void *_universalImageBuffer;
     size_t _filteredImageBufferSize;
+    size_t _universalImageBufferSize;
     
     markerLayer *_markerLayre;
     AVCaptureVideoPreviewLayer *_prevLayer;
