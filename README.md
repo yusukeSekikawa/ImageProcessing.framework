@@ -1,33 +1,61 @@
-ImageProcessing.framework
+![](http://blog-imgs-42.fc2.com/v/a/n/vanishlab/originalICON.png)
 
+
+FEATURE
 =======
-![](http://vanishlab.web.fc2.com/_src/sc228/x-code2082CC83R83s815B.png)
++VERY FAST face detection. <br>
+  8fps[iPhone4,OS 4.3.2,face exist]<br>
++Various fast image effect including Edge,Grayscale,Binarization,Blur,Postalization,Mirror,Spot Color,Residual image,Fish Eye,Gamma manupuration,Dither,Swap Color...and More!<br>
+  Many effects is very high speed that you can use it with live view effect like sample code.<br>
++Easy to use.<br>
+  There is C and Objective-C APIs that is simple to apply with iOS.<br>
 
-NOTE
+HOW TO USE
 =======
-Please set the following configuration.
-+In your project setting,set architecture to armv7.(override)
-+In your project setting,turn Thumb instruction to Off
-+Add Accelerate.framework
+1.Download and open /sample01_live/camera01.xcodeproj<br>
+2.Run<br>
+*This framework and sample project currently works only iOS devices with armv7(iPhone3G and 1st gen iPodTouch is not supported.<br>
+I will support armv6 and simulator in future).<br><br>
 
-Android version will be release soon.
-
+You can add ImageProcessing.framework to your project like other framework.
+*Please set the following configuration when using in your own project.<br>
+1.In your project setting,set architecture to armv7.(override)<br>
+2.In your project setting,turn Thumb instruction to Off<br>
+3.In your project setting,set Optimization Level to O3<br>
+4.Add Accelerate.framework<br>
+5.Add haarcascades to your project in framework.<br>
 
 App Store
 =======
 You can download iOS APP [PiPic] using this framework on APP Store
 
-HP
+HP((In construction)) & Blog
 =======
-[vanishlab]
+[vanishlab]<br>
+[blog]
+
+Others
+=======
+Android version will be release soon.
+
 
 Dependency
 =======
 Accelerate.framework
  
+Contacts
+=======
+[facebook]<br>
+[twitter]
+
 Acknowledgement
 =======
 My colleague Ko Yokokawa designed HP and gave me advice
+
+References
+=======
+[A very fast BGRA to Grayscale conversion on Iphone « Computer Vision Talks]<br>
+[Optimizing OpenCV face detection for the i.MX51]
 
 License
 =======
@@ -76,6 +104,17 @@ the use of this software, even if advised of the possibility of such damage.
 
 
 [PiPic]: http://www.facebook.com/apps/application.php?id=168715359851028
+
 [vanishlab]: http://vanishlab.web.fc2.com/
+
+[blog]: http://vanishlab.blog128.fc2.com/blog-entry-24.html
+
+[facebook]: http://www.facebook.com/yusuke.sekikawa
+
+[twitter]: http://twitter.com/#!/YusukeSekikawa
+
 [BSD License]: http://www.opensource.org/licenses/bsd-license.php
 
+[A very fast BGRA to Grayscale conversion on Iphone « Computer Vision Talks]: http://computer-vision-talks.com/2011/02/a-very-fast-bgra-to-grayscale-conversion-on-iphone/
+
+[Optimizing OpenCV face detection for the i.MX51]: http://imxcommunity.org/group/computervisionusingtheimx/forum/topics/optimizing-opencv-face
