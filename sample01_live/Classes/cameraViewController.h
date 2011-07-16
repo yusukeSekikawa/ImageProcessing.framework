@@ -15,7 +15,7 @@
  * - Redistributions in binary form must reproduce the above copyright notice, this list
  *  of conditions and the following disclaimer in the documentation and/or other materia
  * ls provided with the distribution.
- * - Neither the name of the "Yuichi Yoshida" nor the names of its contributors may be u
+ * - Neither the name of the "Yusuke Sekikawa" nor the names of its contributors may be u
  * sed to endorse or promote products derived from this software without specific prior 
  * written permission.
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY E
